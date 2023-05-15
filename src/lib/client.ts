@@ -25,21 +25,7 @@ const alchemyId = process.env.NEXT_PUBLIC_ALCHEMY_ID;
 const infuraId = process.env.NEXT_PUBLIC_INFURA_ID;
 
 export const chainList = [
-  chain.mainnet,
-  bscMainnet,
   cantoMainnet,
-  chain.polygon,
-  avaxMainnet,
-  ethwMainnet,
-  moonbeamMainnet,
-  evmosMainnet,
-  fantomMainnet,
-  dogechainMainnet,
-  bscTestnet,
-  okxMainnet,
-  chain.goerli,
-  pulseChain,
-  chain.polygonMumbai,
 ];
 
 export const { chains, provider, webSocketProvider } = configureChains(
