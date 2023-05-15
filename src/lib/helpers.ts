@@ -9,7 +9,7 @@ export const WALLET_ADDRESS_REGEX = new RegExp(
 );
 
 export const MAX_PROFILE_WALLETS = 20;
-export const DONATION_ADDRESS = "0x06e50E3802cC7A8990Fd7624dB6216138375a709";
+export const DONATION_ADDRESS = "0xF0e4e74Ce34738826477b9280776fc797506fE13";
 
 export const formatDecimals = (
   value: number,
