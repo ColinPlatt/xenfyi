@@ -71,7 +71,7 @@ export const xenContract = (contractChain?: Chain) => {
     case chain.mainnet.id:
     default:
       return {
-        addressOrName: "0x06450dEe7FD2Fb8E39061434BAbCFC05599a6Fb8",
+        addressOrName: "0xcC1d475eDc349C9ca520f0b95E9f21645C0dBB27",
         contractInterface: XENCryptoABI,
         chainId: chain.mainnet.id,
       };
